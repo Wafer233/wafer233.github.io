@@ -12374,11 +12374,3 @@ header.masthead .post-heading .meta a {
         font-size: 2.25rem;
     }
 }
-
-.masthead {
-    background-size: cover; /* 图片等比例拉伸，覆盖整个区域 */
-    background-position: center; /* 居中显示 */
-    background-repeat: no-repeat; /* 不重复 */
-    width: 100%; /* 宽度全屏 */
-    height: 100vh; /* 高度为视口高度（可调） */
-}
