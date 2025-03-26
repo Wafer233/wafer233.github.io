@@ -60,7 +60,7 @@
                 <div class="my-5">
                     <!--use my own service-->
                     <form id="contactForm" class="needs-validation"
-                          action="https://formsubmit.co/wangzefeng2333@email.com"
+                          action="https://formsubmit.co/wangzefeng2333@gmail.com"
                           method="POST" novalidate>
                         <input type="hidden" name="_captcha" value="false">
 
@@ -88,6 +88,12 @@
                             <label for="message">Message</label>
                             <div class="invalid-feedback">Please enter a message.</div>
                         </div>
+
+                        <div class="alert alert-success d-none" id="successMsg">✅ Message sent successfully!</div>
+                        <div class="alert alert-danger d-none" id="errorMsg">❌ Failed to send message. Please try
+                            again.
+                        </div>
+
                         <button class="btn btn-primary text-uppercase w-100" type="submit">Send</button>
                     </form>
 
