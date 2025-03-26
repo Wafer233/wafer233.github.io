@@ -59,37 +59,35 @@
                     soon!</p>
                 <div class="my-5">
                     <!--use my own service-->
-                    <form id="contactForm" action="https://formsubmit.co/wangzefeng2333@gmail.com" method="POST"
-                          novalidate>
+                    <form id="contactForm" class="needs-validation"
+                          action="https://formsubmit.co/wangzefeng2333@email.com"
+                          method="POST" novalidate>
                         <input type="hidden" name="_captcha" value="false">
 
-
                         <div class="form-floating mb-3">
-                            <input class="form-control" name="name" type="text" placeholder="" required/>
-                            <label>Name</label>
-
+                            <input class="form-control" id="name" name="name" type="text" placeholder=" " required>
+                            <label for="name">Name</label>
+                            <div class="invalid-feedback">Please enter your name.</div>
                         </div>
 
                         <div class="form-floating mb-3">
-                            <input class="form-control" name="email" type="email" placeholder="" required/>
-                            <label>Email</label>
-
+                            <input class="form-control" id="email" name="email" type="email" placeholder=" " required>
+                            <label for="email">Email</label>
+                            <div class="invalid-feedback">Please enter a valid email.</div>
                         </div>
 
                         <div class="form-floating mb-3">
-                            <input class="form-control" name="phone" type="tel" placeholder="" required/>
-                            <label>Phone</label>
-
+                            <input class="form-control" id="phone" name="phone" type="tel" placeholder=" " required>
+                            <label for="phone">Phone</label>
+                            <div class="invalid-feedback">Please enter your phone number.</div>
                         </div>
 
                         <div class="form-floating mb-3">
-                            <textarea class="form-control" name="message" placeholder="" style="height: 12rem"
-                                      required></textarea>
-                            <label>Message</label>
-
+                            <textarea class="form-control" id="message" name="message" placeholder=" "
+                                      style="height: 12rem" required></textarea>
+                            <label for="message">Message</label>
+                            <div class="invalid-feedback">Please enter a message.</div>
                         </div>
-
-
                         <button class="btn btn-primary text-uppercase w-100" type="submit">Send</button>
                     </form>
 
