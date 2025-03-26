@@ -58,42 +58,37 @@
                 <p>Wanna get in touch? Fill out the form below to send me a message and I will get back you back
                     soon!</p>
                 <div class="my-5">
-
                     <!--use my own service-->
                     <form id="contactForm" action="https://formsubmit.co/wangzefeng2333@gmail.com" method="POST"
                           novalidate>
                         <input type="hidden" name="_captcha" value="false">
 
+
                         <div class="form-floating mb-3">
-                            <input class="form-control" name="name" type="text" placeholder="Your name" required/>
+                            <input class="form-control" name="name" type="text" placeholder="" required/>
                             <label>Name</label>
 
                         </div>
 
                         <div class="form-floating mb-3">
-                            <input class="form-control" name="email" type="email" placeholder="Your email" required/>
+                            <input class="form-control" name="email" type="email" placeholder="" required/>
                             <label>Email</label>
 
                         </div>
 
                         <div class="form-floating mb-3">
-                            <input class="form-control" name="phone" type="tel" placeholder="Your phone" required/>
+                            <input class="form-control" name="phone" type="tel" placeholder="" required/>
                             <label>Phone</label>
 
                         </div>
 
                         <div class="form-floating mb-3">
-                            <textarea class="form-control" name="message" placeholder="Message" style="height: 12rem"
+                            <textarea class="form-control" name="message" placeholder="" style="height: 12rem"
                                       required></textarea>
                             <label>Message</label>
 
                         </div>
 
-                        <!-- Alert boxes -->
-                        <div class="alert alert-success d-none" id="successMsg">✅ Message sent successfully!</div>
-                        <div class="alert alert-danger d-none" id="errorMsg">❌ Failed to send message. Please try
-                            again.
-                        </div>
 
                         <button class="btn btn-primary text-uppercase w-100" type="submit">Send</button>
                     </form>
