@@ -9,7 +9,6 @@
     <link rel="icon" type="image/x-icon" href="/static/assets/favicon.ico"/>
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-
     <!-- Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet"
           type="text/css"/>
@@ -44,17 +43,17 @@
 
 
 <!-- Page Header-->
-<header class="masthead" style="background-image: url('bg.jpg')">
+<header class="masthead" style="background-image: url('./img/bg.png')">
     <div class="container position-relative px-4 px-lg-5">
         <div class="row gx-4 gx-lg-5 justify-content-center">
             <div class="col-md-10 col-lg-8 col-xl-7">
                 <div class="post-heading">
-                    <h1>Basic</h1>
-                    <h2 class="subheading">I don’t create clichés, I just deliver them. </h2>
+                    <h1>Refactoring Journey: Breathing New Life into a Project with Claude</h1>
+                    <h2 class="subheading">From Chaos to Clarity: How I Restructured and Optimized with Claude’s Guidance</h2>
                     <span class="meta">
                                 Posted by
                                 <a href="#!">Wafer</a>
-                                on March 26, 2025
+                                on April 24, 2025
                             </span>
                 </div>
             </div>
@@ -63,16 +62,61 @@
 </header>
 
 
-
 <!-- Post Content-->
 <article class="mb-4">
     <div class="container px-4 px-lg-5">
         <div class="row gx-4 gx-lg-5 justify-content-center">
             <div class="col-md-10 col-lg-8 col-xl-7">
 
-                <h2 class="section-heading">Why I Built This Blog Website</h2>
-
+                <h2 class="section-heading">How I Ended Up in the Infra World</h2>
                 <p>
+                    Back in early April, I got an interview notice for an infra-related position.
+                    As someone used to writing backend code, I suddenly found myself wandering into
+                    the mysterious land of infrastructure. I looked back at my previous project,
+                    <em>webook</em>, and honestly… I wasn’t thrilled to open it. The frontend was,
+                    let’s say, charmingly janky. Despite living with it for a month, and learning tons
+                    of cool tech like GIN, GORM, REDIS-GO, KAFKA, and even getting a glimpse of
+                    Domain-Driven Design (DDD), the project ended up being me just copying code from
+                    a tutorial video. It felt more like a performance than real development. So yeah,
+                    I quit working on <em>webook</em> — not with a bang, but with a Ctrl+C.
+                </p>
+
+                <h2 class="section-heading">Birth of a New Project </h2>
+                <p>
+                    Then came the main quest: I wanted to practice CICD and all the fancy infra
+                    stuff on a <em>somewhat complete</em> project. But first, I needed... a project.
+                    That’s how <em>msproject</em> was born. After some initial setup, I discovered the
+                    frontend was surprisingly smooth to work with — way better than slogging through
+                    endless <code>go test</code> sessions. So I committed to using this one.
+                </p>
+
+                <h2 class="section-heading">DDD Is Just a Lie You Tell Your Code</h2>
+                <p>
+                    But of course, it had a fatal flaw: it <em>claimed</em> to follow DDD. Spoiler alert:
+                    it did not. The project structure was a tangled spaghetti mess. Layers? What layers?
+                    Everything was coupled tighter than my weekend plans. So I did what any rational dev
+                    would do: googled “clean microservice architecture,” picked a highly-rated template,
+                    and — with Claude’s gentle wisdom — began refactoring the whole thing. Step by step,
+                    from monolith setup to GORM, GIN, ZAP, VIPER, and eventually migrating to gRPC. All I
+                    can say is, in an age with Claude, even a noob like me can build something halfway
+                    decent.
+                </p>
+
+                <h2 class="section-heading">Complain About AI for a Second</h2>
+                <p>
+                    And since we’re talking AI... let me just rant for a sec. GPT? Amazing at
+                    conversation, but without GitHub access, it codes like it’s blindfolded.
+                    Cursor’s hyped AI agents? Sure, if you’re a demigod, maybe. For us mere mortals,
+                    the best combo is still: let Claude generate the code, read it yourself,
+                    copy-paste the good parts, and tweak as needed. Context limits are still real,
+                    and AI agents have a long way to go. But hey — we’re getting there!
+                </p>
+
+                <h2 class="section-heading">What’s Next in the Future</h2>
+                <p>
+                    To be honest, I used to hate Git, avoid GitHub, and never touched Markdown. But after finally giving them a shot — wow, they’re pretty convenient. Same with this blog. Writing in HTML feels kinda weird, and I might switch to Markdown in the future. But since this is my first-ever blog post, I figured I’d stick with good ol’ HTML and finish it proper.
+                </p>
+
 
 
                 <p>
